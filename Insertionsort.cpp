@@ -41,12 +41,6 @@ int main()
 			arr[j + 1] = key;
 		}
 
-		/*for (int k = 0; k < size; k++){
-			cout << arr[k];
-			cout << " ";
-		}
-		cout << endl;
-		*/
 		ofstream myfile;
 		myfile.open("InsertionSorted_" + filename + ".txt");
 		for (int k = 0; k < size; k++){
